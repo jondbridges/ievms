@@ -367,7 +367,7 @@ build_ievm() {
                 os="Win8"
             else
                 os="Win7"
-                archive="IE9_Win7.zip"
+                archive="IE9.Win7.VirtualBox.zip"
             fi
             ;;
         EDGE)
@@ -391,7 +391,7 @@ build_ievm() {
     then
         url="https://az792536.vo.msecnd.net/vms/VMBuild_20160802/VirtualBox/MSEdge/MSEdge.Win10_RS1.VirtualBox.zip"
     else
-        url="https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/${archive}"
+        url="https://az792536.vo.msecnd.net/vms/VMBuild_20150916/VirtualBox/IE9/${archive}"
     fi
 
     local md5
@@ -399,7 +399,7 @@ build_ievm() {
         IE6_WinXP.zip) md5="3d5b7d980296d048de008d28305ca224" ;;
         IE7_Vista.zip) md5="d5269b2220f5c7fb9786dad513f2c05a" ;;
         IE8_Win7.zip) md5="21b0aad3d66dac7f88635aa2318a3a55" ;;
-        IE9_Win7.zip) md5="58d201fe7dc7e890ad645412264f2a2c" ;;
+        IE9.Win7.VirtualBox.zip) md5="58d201fe7dc7e890ad645412264f2a2c" ;;
         IE10_Win8.zip) md5="cc4e2f4b195e1b1e24e2ce6c7a6f149c" ;;
         MSEdge_Win10.zip) md5="467d8286cb8cbed90f0761c3566abdda" ;;
     esac
