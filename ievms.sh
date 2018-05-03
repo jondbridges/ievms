@@ -399,7 +399,7 @@ build_ievm() {
         IE6_WinXP.zip) md5="3d5b7d980296d048de008d28305ca224" ;;
         IE7_Vista.zip) md5="d5269b2220f5c7fb9786dad513f2c05a" ;;
         IE8_Win7.zip) md5="21b0aad3d66dac7f88635aa2318a3a55" ;;
-        IE9.Win7.VirtualBox.zip) md5="58d201fe7dc7e890ad645412264f2a2c" ;;
+        IE9.Win7.VirtualBox.zip) md5="0e1d3669b426fce8b0d772665f113302" ;;
         IE10_Win8.zip) md5="cc4e2f4b195e1b1e24e2ce6c7a6f149c" ;;
         MSEdge_Win10.zip) md5="467d8286cb8cbed90f0761c3566abdda" ;;
     esac
